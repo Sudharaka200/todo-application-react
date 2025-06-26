@@ -2,6 +2,9 @@
 
 A simple Todo App built with React to demonstrate state management, Context API, and memoization using `React.memo` and `useMemo`.
 
+## 📽 Demo
+Watch the demo video on [YouTube](https://youtu.be/7AjPdUWE2MU)
+
 ## Features
 - Add todos with unique IDs
 - Display list of todos
