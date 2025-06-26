@@ -1,11 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{js,jsx,ts,tsx}", // 👈 must include all source files
   ],
   theme: {
     extend: {},
   },
-  plugins: []
-}
+  plugins: [],
+};
+
+export default config; // 👈 Use this instead of module.exports
