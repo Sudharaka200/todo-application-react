@@ -1,12 +1,40 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Todo App built with React to demonstrate state management, Context API, and memoization using `React.memo` and `useMemo`.
 
-Currently, two official plugins are available:
+## Features
+- Add todos with unique IDs
+- Display list of todos
+- Show total count of todos (memoized)
+- Global state management using Context API
+- Optimize rendering with `React.memo`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Expanding the ESLint configuration
+## Installation
+Follow these steps to set up and run the project locally:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sudharaka200/todo-application-react
+
+2. Navigate into the project folder::
+   ```bash
+   cd todo-application-react
+
+3. Checkout the dev branch::
+   ```bash
+   git checkout dev
+
+4. Install dependencies::
+   ```bash
+   npm install
+
+5. Start the app::
+   ```bash
+   npm start
