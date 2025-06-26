@@ -11,10 +11,6 @@ A simple Todo App built with React to demonstrate state management, Context API,
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Installation
 Follow these steps to set up and run the project locally:
@@ -23,18 +19,18 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone https://github.com/Sudharaka200/todo-application-react
 
-2. Navigate into the project folder::
+2. Navigate into the project folder:
    ```bash
    cd todo-application-react
 
-3. Checkout the dev branch::
+3. Checkout the dev branch:
    ```bash
    git checkout dev
 
-4. Install dependencies::
+4. Install dependencies:
    ```bash
    npm install
 
-5. Start the app::
+5. Start the app:
    ```bash
    npm start
