@@ -7,7 +7,7 @@ const TodoCount = () => {
   const { todos } = useTodo();
   const count = useMemo(() => todos.length, [todos]);
 
-  return <p>All Todos: {count}</p>;
+  return <p className="mt-5 font-bold text-2xl">All Todos: {count}</p>;
 };
 
 const AppContent = () => (
